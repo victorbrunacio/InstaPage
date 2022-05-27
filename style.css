@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(253, 244, 255);
+}
+
+:root {
+    --azul: rgb(50, 112, 245);
+    --branco: rgb(255, 255, 255);
+  }
+
+button {
+    cursor: pointer;
+}
+.continue-como {
+    padding: 0.5rem;
+    background-color: rgb(95, 176, 252);
+    color: rgb(255, 255, 255);
+
+    border-radius: 0.3rem;
+    border-style: none;
+
+    margin: 1rem 0rem;
+  
+}
+.remover-acc {
+    border-radius: 0.3rem;
+    border-style: none;
+
+    margin: 1rem 0rem;
+    color: var(--azul);
+}
+
+.pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+/* .parte-direita{
+    
+    display: flex;
+    flex-direction: column;
+} */
+
+.insta-info1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid rgba(211, 211, 211, 0.404);
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: var(--branco);
+}
+.insta-info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    border: 1px solid rgba(211, 211, 211, 0.404);
+    margin: 1.5rem 0;
+    padding: 2rem;
+    background-color: var(--branco);
+    
+}
+
+.insta-info2 a {
+    color: var(--azul);
+    text-decoration: none;
+}
+
+#baixar-app{
+    text-align: center;
+    margin: 2.5rem 0;
+}
+
+.cel-photo img {
+    height: 80vh;
+}
+.vh10{
+    height: 10vh;
+}
+.vh5{
+    height: 5vh;
+}
